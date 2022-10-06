@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start:google-maps": "memlab run --scenario google-maps/google-maps.js"
+    "start:google-maps": "memlab run --scenario google-maps/google-maps.js",
+    "start:google-maps-ts": "tsc && memlab run --scenario dist/google-maps-ts/google-maps.js"
   },
   "author": "autopp",
   "license": "Apache-2.0",
